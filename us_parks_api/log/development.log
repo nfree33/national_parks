@@ -276,3 +276,317 @@ Processing by ParksController#index as */*
 Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1975)
 
 
+Started GET "/parks" for ::1 at 2020-09-24 15:07:50 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ParksController#index as HTML
+  [1m[36mPark Load (0.6ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 9.4ms | ActiveRecord: 7.4ms | Allocations: 6550)
+
+
+Started GET "/parks/1" for ::1 at 2020-09-24 15:36:20 -0400
+Processing by ParksController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPark Load (0.7ms)[0m  [1m[34mSELECT "parks".* FROM "parks" WHERE "parks"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/parks_controller.rb:44:in `set_park'
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 1.8ms | Allocations: 2273)
+
+
+Started GET "/parks/1" for ::1 at 2020-09-24 15:40:19 -0400
+Processing by ParksController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPark Load (0.8ms)[0m  [1m[34mSELECT "parks".* FROM "parks" WHERE "parks"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/parks_controller.rb:44:in `set_park'
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.8ms | Allocations: 771)
+
+
+Started GET "/parks/1" for ::1 at 2020-09-24 15:41:41 -0400
+Processing by ParksController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPark Load (0.5ms)[0m  [1m[34mSELECT "parks".* FROM "parks" WHERE "parks"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/parks_controller.rb:44:in `set_park'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 771)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 15:44:40 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.5ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.5ms | Allocations: 1974)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 15:49:56 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (1.0ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 1.0ms | Allocations: 2068)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 15:50:02 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.4ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.4ms | Allocations: 1991)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 15:50:37 -0400
+Processing by ParksController#index as HTML
+  [1m[36mPark Load (0.3ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 1971)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 15:51:55 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.4ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.4ms | Allocations: 1973)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 15:53:09 -0400
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.6ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 11.4ms | ActiveRecord: 8.2ms | Allocations: 6552)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 15:54:06 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.7ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.7ms | Allocations: 1991)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 15:54:49 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.4ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.4ms | Allocations: 1991)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 15:55:26 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.5ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.5ms | Allocations: 1973)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 15:55:33 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.5ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.5ms | Allocations: 1973)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 15:59:41 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.8ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.8ms | Allocations: 1991)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 16:00:37 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (1.2ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 1.2ms | Allocations: 1991)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 16:00:53 -0400
+Processing by ParksController#index as HTML
+  [1m[36mPark Load (0.4ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.4ms | Allocations: 1972)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 16:00:55 -0400
+Processing by ParksController#index as HTML
+  [1m[36mPark Load (0.4ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 1971)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 16:01:15 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.5ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.5ms | Allocations: 1973)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 16:12:30 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (1.0ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 1.0ms | Allocations: 2068)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 17:12:35 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.9ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 9.4ms | ActiveRecord: 9.7ms | Allocations: 6552)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 17:12:38 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (2.0ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 2.0ms | Allocations: 2025)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 17:13:02 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.4ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.4ms | Allocations: 1991)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 17:13:02 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.4ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms | Allocations: 1973)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 17:13:04 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.5ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.5ms | Allocations: 1973)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 17:13:04 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.5ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.5ms | Allocations: 1973)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 17:15:12 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.4ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.4ms | Allocations: 1991)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 17:15:12 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.5ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.5ms | Allocations: 1973)
+
+
+Started POST "/parks" for ::1 at 2020-09-24 17:15:41 -0400
+Processing by ParksController#create as HTML
+  Parameters: {"name"=>"banana", "description"=>"Mizuno Heel Flex Power Close Infielder Glove", "location"=>"South Dakota", "avg_visitors"=>"3000000", "park"=>{"name"=>"banana", "description"=>"Mizuno Heel Flex Power Close Infielder Glove", "location"=>"South Dakota", "avg_visitors"=>"3000000"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/parks_controller.rb:20:in `create'
+  [1m[36mPark Create (0.7ms)[0m  [1m[32mINSERT INTO "parks" ("name", "description", "location", "avg_visitors", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "banana"], ["description", "Mizuno Heel Flex Power Close Infielder Glove"], ["location", "South Dakota"], ["avg_visitors", 3000000], ["created_at", "2020-09-24 21:15:41.658248"], ["updated_at", "2020-09-24 21:15:41.658248"]]
+  ↳ app/controllers/parks_controller.rb:20:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/parks_controller.rb:20:in `create'
+Completed 201 Created in 8ms (Views: 1.3ms | ActiveRecord: 1.3ms | Allocations: 2831)
+
+
+Started POST "/parks" for ::1 at 2020-09-24 17:15:43 -0400
+Processing by ParksController#create as HTML
+  Parameters: {"author"=>"", "content"=>"", "title"=>"", "park"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 138)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: park):
+  
+app/controllers/parks_controller.rb:49:in `park_params'
+app/controllers/parks_controller.rb:18:in `create'
+Started GET "/parks" for ::1 at 2020-09-24 17:16:01 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.8ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.8ms | Allocations: 2135)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 17:16:01 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (1.7ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 1.7ms | Allocations: 2101)
+
+
+Started POST "/parks" for ::1 at 2020-09-24 17:16:40 -0400
+Processing by ParksController#create as HTML
+  Parameters: {"name"=>"Holy Mountains", "description"=>"Good brewing", "location"=>"Company", "avg_visitors"=>"23424950", "park"=>{"name"=>"Holy Mountains", "description"=>"Good brewing", "location"=>"Company", "avg_visitors"=>"23424950"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/parks_controller.rb:20:in `create'
+  [1m[36mPark Create (0.4ms)[0m  [1m[32mINSERT INTO "parks" ("name", "description", "location", "avg_visitors", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Holy Mountains"], ["description", "Good brewing"], ["location", "Company"], ["avg_visitors", 23424950], ["created_at", "2020-09-24 21:16:40.735538"], ["updated_at", "2020-09-24 21:16:40.735538"]]
+  ↳ app/controllers/parks_controller.rb:20:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/parks_controller.rb:20:in `create'
+Completed 201 Created in 7ms (Views: 0.8ms | ActiveRecord: 0.9ms | Allocations: 2623)
+
+
+Started POST "/parks" for ::1 at 2020-09-24 17:16:41 -0400
+Processing by ParksController#create as HTML
+  Parameters: {"author"=>"", "content"=>"", "title"=>"", "park"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 134)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: park):
+  
+app/controllers/parks_controller.rb:49:in `park_params'
+app/controllers/parks_controller.rb:18:in `create'
+Started GET "/parks" for ::1 at 2020-09-24 17:17:58 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.6ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 27ms (Views: 14.7ms | ActiveRecord: 10.3ms | Allocations: 6808)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 17:17:58 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.4ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms | Allocations: 2229)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 17:41:21 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (0.7ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.7ms | Allocations: 2336)
+
+
+Started GET "/parks" for ::1 at 2020-09-24 17:41:21 -0400
+Processing by ParksController#index as */*
+  [1m[36mPark Load (2.5ms)[0m  [1m[34mSELECT "parks".* FROM "parks"[0m
+  ↳ app/controllers/parks_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 2.5ms | Allocations: 2229)
+
+
+Started POST "/parks" for ::1 at 2020-09-24 17:42:04 -0400
+Processing by ParksController#create as HTML
+  Parameters: {"name"=>"Cool Park", "description"=>"its cool", "location"=>"cool place", "avg_visitors"=>"6", "park"=>{"name"=>"Cool Park", "description"=>"its cool", "location"=>"cool place", "avg_visitors"=>"6"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/parks_controller.rb:20:in `create'
+  [1m[36mPark Create (1.4ms)[0m  [1m[32mINSERT INTO "parks" ("name", "description", "location", "avg_visitors", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Cool Park"], ["description", "its cool"], ["location", "cool place"], ["avg_visitors", 6], ["created_at", "2020-09-24 21:42:04.721383"], ["updated_at", "2020-09-24 21:42:04.721383"]]
+  ↳ app/controllers/parks_controller.rb:20:in `create'
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/parks_controller.rb:20:in `create'
+Completed 201 Created in 9ms (Views: 1.0ms | ActiveRecord: 2.8ms | Allocations: 2847)
+
+
+Started POST "/parks" for ::1 at 2020-09-24 17:42:06 -0400
+Processing by ParksController#create as HTML
+  Parameters: {"author"=>"", "content"=>"", "title"=>"", "park"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 140)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: park):
+  
+app/controllers/parks_controller.rb:49:in `park_params'
+app/controllers/parks_controller.rb:18:in `create'
